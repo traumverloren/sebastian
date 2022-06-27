@@ -3,9 +3,9 @@ Runner
 */
 
 // Both available renderers are imported
-import textRenderer from 'textrenderer.js';
-import canvasRenderer from 'canvasrenderer.js';
-import FPS from 'fps.js';
+import textRenderer from './textrenderer.js';
+import canvasRenderer from './canvasrenderer.js';
+import FPS from './fps.js';
 
 const renderers = {
   canvas: canvasRenderer,
