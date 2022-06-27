@@ -133,8 +133,8 @@ const defaultTextBoxStyle = {
   shadowY: 1, // vertical shadow offset
 };
 
-import { wrap, measure } from '/string.js';
-import { merge, setRect, mergeRect, mergeText } from '/buffer.js';
+import { wrap, measure } from './string.js';
+import { merge, setRect, mergeRect, mergeText } from './buffer.js';
 
 export function drawBox(text, style, target, targetCols, targetRows) {
   const s = { ...defaultTextBoxStyle, ...style };
